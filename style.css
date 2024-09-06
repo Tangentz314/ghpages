@@ -1,28 +1,28 @@
 /* Banner */
 .persistent-banner {
     position: fixed;
-    top: 5px; /* Stick the banner to the top */
+    top: 0.5vh; /* Stick the banner to the top */
     left: 0;
     width: 100%; /* Make the banner span the full width of the viewport */
     background-color: #333; /* Choose a background color */
     color: white; /* Text color */
-    padding: 15px 0; /* Padding for some spacing */
+    padding: 1.5vh 0; /* Padding for some spacing */
     text-align: center; /* Center the content horizontally */
     z-index: 1000; /* Ensure the banner is on top of other elements */
     opacity: 0.5;
-    border-radius: 70px;
+    border-radius: 7vh;
 }
 
 .persistent-banner button {
     background: none;
     color: aqua;
     border: none;
-    padding: 10px 20px;
-    margin: 0 100px;
+    padding: 1vh 2vw;
+    margin: 0 10vw;
     cursor: pointer;
-    font-size: 32px;
+    font-size: 3.2vh;
     font-family: "Parchment", cursive;
-    border-radius: 50px;
+    border-radius: 5vh;
     opacity: 1;
 }
 
@@ -31,35 +31,35 @@
 }
 
 .section {
-    padding: 100px 20px; 
-    margin-top: 60px;
+    padding: 10vh 2vw; 
+    margin-top: 6vh;
 }
 
 #about, #hobbies, #coding, #mystery {
-    padding: 60px 20px; 
-    margin-top: -70px; 
+    padding: 6vh 2vw; 
+    margin-top: -7vh; 
     z-index: 3;
     text-align: center;
     color: white;
 }
 
 body {
-  width: 100%;
-  height: 300vh;
-  margin: 0;
-  background: #000;
-  color: #f5f6f7;
-  font-family: "Parchment", cursive;
-  font-size: 16px;
-  padding: 0;
+    width: 100%;
+    height: 300vh;
+    margin: 0;
+    background: #000;
+    color: #f5f6f7;
+    font-family: "Parchment", cursive;
+    font-size: 1.6vh;
+    padding: 0;
 }
 
-/* openning screen */
+/* opening screen */
 img[id="sky island"] {
     max-width: 100%;
     text-align: center;
-    border-bottom-left-radius: 30px;
-    border-bottom-right-radius: 30px;
+    border-bottom-left-radius: 3vh;
+    border-bottom-right-radius: 3vh;
 }
 .island-image {
     position: absolute;
@@ -88,12 +88,12 @@ h1 {
     font-size: 4rem;
     z-index: 2;
     text-align: center;
-    margin-top: 300px;
-    letter-spacing: 10px;
-    margin-bottom: -300px;
+    margin-top: 30vh;
+    letter-spacing: 1vw;
+    margin-bottom: -30vh;
 }
 h1[id="title end"]{
-    padding-bottom: 40%;
+    padding-bottom: 80vh;
 }
 
 /* About */
@@ -103,8 +103,8 @@ h2[name="garden"] {
     font-size: 2rem;
     z-index: 2;
     text-align: center;
-    letter-spacing: 10px;
-    padding-bottom: 15px;
+    letter-spacing: 1vw;
+    padding-bottom: 1.5vh;
 }
 p {
     position: relative;
@@ -112,18 +112,19 @@ p {
     font-size: 1rem;
     text-align: center;
     z-index: 2;
-    padding-left: 15%;
-    letter-spacing:8px;
-    max-width: 70%;
-    margin-bottom: -30px;
+    padding-left: 15vw;
+    letter-spacing:0.8vw;
+    max-width: 70vw;
+    margin-bottom: -3vh;
 }
 
 
 p[name] {
     position: relative;
     font-size: 3em;
-    top: 450px;
+    top: 45vh;
     z-index: 4;
+    width: 100%;
     display: block; 
 }
 
@@ -131,11 +132,11 @@ p[name] {
 img[id="garden"] {
     max-width: 100%;
     text-align: center;
-    border-radius: 30px;
+    border-radius: 3vh;
 }
 .garden-image {
     position: relative;
-    top: -1410px;
+    top: -171vh;
     left: 0;
     width: 100%;
     height: 100%;
@@ -153,7 +154,7 @@ img[id="garden"] {
     background: linear-gradient(rgb(0, 0, 0, 100%) 5%, rgba(255, 255, 255, 0) 50%, rgba(0, 0, 0, 1) 90%);
     pointer-events: none; /* Allow clicks through the mask */
     z-index: 2;
-    border-radius: 30px;
+    border-radius: 3vh;
 }
 
 
@@ -164,34 +165,34 @@ h2[name="hobbies"] {
     font-size: 2rem;
     z-index: 2;
     text-align: center;
-    top: 750px;
-    letter-spacing: 10px;
-    padding-bottom: 10px;
+    top: 79vh;
+    letter-spacing: 1vw;
+    padding-bottom: 1vh;
 }
 
 p[name="oracle_description"] {
     position: relative;
-    top: 750px;
+    top: 79vh;
     font-size: 1rem;
     z-index: 2;
 }
 label[id="hobbies"] {
     position: relative;
-    top: 310px;
+    top: 31vh;
 }
 img[id="sun"] {
     max-width: 100%;
     text-align: center;
-    border-radius: 30px;
+    border-radius: 3vh;
     border-top-right-radius: 0;
     z-index: 1;
 }
 .sun-image {
     position: relative;
-    top: -1100px;
-    left: -32px;
-    width: 102%;
-    height: 100%;
+    top: -140vh;
+    left: -3.2vw;
+    width: 102vw;
+    height: 100vh;
     object-fit: cover;
     z-index: 1; 
 }
@@ -201,30 +202,30 @@ img[id="sun"] {
     top: 0;
     left: 0;
     width: 100%;
-    height: 100%;
+    height: 130%;
     background: linear-gradient(rgb(0, 0, 0, 1) 10%, rgba(255, 255, 255, 0) 50%, rgba(0, 0, 0, 1) 89%);
     pointer-events: none; /* Allow clicks through the mask */
     z-index: 2;
-    border-radius: 30px;
+    border-radius: 3vh;
     border-top-right-radius: 0;
 }
 
 
-/* Coding Projects (currently empty) */
+/* Coding */
 h2[name="coding"] {
     position: relative;
     color: white;
     font-size: 2rem;
     z-index: 2;
     text-align: center;
-    top: 1550px;
-    letter-spacing: 10px;
-    padding-bottom: 10px;
+    top: 185vh;
+    letter-spacing: 1vw;
+    padding-bottom: 1vh;
 }
 
 p[name="library_description"] {
     position: relative;
-    top: 1550px;
+    top: 185vh;
     font-size: 1rem;
     z-index: 2;
 }
@@ -232,19 +233,19 @@ p[name="library_description"] {
 
 label[id="coding"] {
     position: relative;
-    top: 1150px;
+    top: 115vh;
 }
 
 
 /* Container to hold the floating text */
 .floating-container {
     position: absolute;
-    top: 4250px;
-    left: 250px;
+    top: 495vh;
+    left: 19vw;
     width: 80vw;
     height: 80vh;
     border: #f5f6f7;
-    border-width: 50px;
+    border-width: 5vh;
     z-index: 4;
 }
 
@@ -267,33 +268,31 @@ label[id="coding"] {
 .floating-text:nth-child(6) { top: 60%; left: 57%; animation-duration: 50s; }
 .floating-text:nth-child(7) { top: 65%; left: 15%; animation-duration: 40s; }
 .floating-text:nth-child(8) { top: 35%; left: 35%; animation-duration: 20s; }
-
-/* Animation to create floating movement */
 @keyframes floatAnimation {
     0%, 100% {
-        transform: translate(25px, 30px) rotate(0deg) scale(1);
+        transform: translate(2.5vh, 3vh) rotate(0deg) scale(1);
     }
     25% {
-        transform: translate(40px, -70px) rotate(3deg) scale(1.1);
+        transform: translate(4vh, -7vh) rotate(3deg) scale(1.1);
     }
     50% {
-        transform: translate(-30px, 10px) rotate(-5deg) scale(1.05);
+        transform: translate(-3vh, 1vh) rotate(-5deg) scale(1.05);
     }
     75% {
-        transform: translate(35px, -35px) rotate(3deg) scale(0.95);
+        transform: translate(3.5vh, -3.5vh) rotate(3deg) scale(0.95);
     }
 }
 
 img[id="library"] {
     max-width: 100%;
-    border-bottom-left-radius: 10%;
-    border-bottom-right-radius: 10%;
+    border-bottom-left-radius: 1vh;
+    border-bottom-right-radius: 1vh;
     text-align: center;
-    border-radius: 30px;
+    border-radius: 3vh;
 }
 .library-image {
     position: relative;
-    top: -780px;
+    top: -108vh;
     left: 0;
     width: 100%;
     height: 100%;
@@ -309,7 +308,7 @@ img[id="library"] {
     height: 100%;
     background: linear-gradient(rgb(0, 0, 0, 100%) 15%, rgba(255, 255, 255, 0) 50%, rgba(0, 0, 0, 1) 90%);
     pointer-events: none; /* Allow clicks through the mask */
-    border-radius: 30px;
+    border-radius: 3vh;
 }
 
 
@@ -320,69 +319,69 @@ h2[name="mystery"] {
     font-size: 2rem;
     z-index: 2;
     text-align: center;
-    top: 2550px;
-    letter-spacing: 10px;
-    padding-bottom: 10px;
+    top: 270vh;
+    letter-spacing: 1vw;
+    padding-bottom: 1vh;
 }
 
 p[name="ruins_description"] {
     position: relative;
-    top: 2550px;
+    top: 270vh;
     font-size: 1rem;
     z-index: 2;
 }
 label[id="mystery"] {
     position: relative;
-    top: 20px;
+    top: 2vh;
 }
 
 p[name="??? pt_1"] {
     position: absolute;
-    top: 5600px;
+    top: 640vh;
     font-size: 2em;
-    left: -10%;
-    max-width: 40%;
+    left: -10vw;
+    max-width: 40vw;
 }
 p[name="??? pt_2"] {
     position: absolute;
-    top: 5750px;
+    top: 655vh;
     font-size: 2em;
 }
 p[name="??? pt_3"] {
     position: absolute;
-    top: 5950px;
-    right: 10%;
+    top: 675vh;
+    right: 10vw;
     font-size: 2em;
-    max-width: 40%;
+    max-width: 40vw;
 }
 footer{
     position: absolute;
     text-align: center;
-    top: 6300px;
+    top: 730vh;
     font-size: 1em;
     margin: 0 auto;
     width: 100%; /* Ensure the footer spans the full width */
-    padding: 10px 0;
+    padding: 1vh 0;
     z-index: 4;
 }
 
 img[id="ruins"] {
     max-width: 100%;
-    border-bottom-left-radius: 10%;
-    border-bottom-right-radius: 10%;
+    border-bottom-left-radius: 1vh;
+    border-bottom-right-radius: 1vh;
     text-align: center;
-    margin-bottom: -300px;
+
 
 }
 .ruins-image {
     position: relative;
-    top: -300px;
+    top: -70vh;
     left: 0;
     width: 100%;
-    height: 140%;
+    height: 140vh;
     object-fit: cover;
     z-index: 1; 
-    margin-bottom: -1000px;
+    margin-bottom: -100vh;
 }
 .ruins-image::after {
     content: '';
@@ -390,29 +389,27 @@ img[id="ruins"] {
     top: 0;
     left: 0;
     width: 100%;
-    height: 160%;
+    height: 110vh;
     background: linear-gradient(rgb(0, 0, 0, 100%) 0%, rgba(0, 0, 0, 20%) 50%, rgba(0, 0, 0, 1) 100%);
     pointer-events: none; /* Allow clicks through the mask */
-    margin-bottom: -1000px;
+    margin-bottom: -100vh;
 }
 
-body {
-	background-color: #000;
-}
 
 /* Applying CSS to sphere */
 .tagcloud {
     z-index: 1000;
 	display: inline-block;
-	top: -307vh;
+	top: -375vh;
 	left: 36.5%;
     margin-left: auto;
     margin-right: auto;
 	font-weight: bold;
-	letter-spacing: 5px;
+	letter-spacing: 0.5vh;
 	font-family: "Parchment", cursive;
-	font-size: 21px;
+	font-size: 2em;
     opacity: 0.5;
+
 }
 
 /* Change color of each text in sphere on hover   */
@@ -420,6 +417,6 @@ body {
 	color: maroon;
     opacity: 1;
     background-color: white;
-    border-radius: 40%;
+    border-radius: 30em;
    
 }
