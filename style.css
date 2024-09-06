@@ -363,6 +363,7 @@ footer{
     width: 100%; /* Ensure the footer spans the full width */
     padding: 1vh 0;
     z-index: 4;
+    margin-bottom: -100vh;
 }
 
 img[id="ruins"] {
@@ -370,7 +371,7 @@ img[id="ruins"] {
     border-bottom-left-radius: 1vh;
     border-bottom-right-radius: 1vh;
     text-align: center;
-
+    padding-bottom: -10vh;
 
 }
 .ruins-image {
